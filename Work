@@ -1,0 +1,22 @@
+### STEPS -
+- Create 3 folder in your desktop 
+- Training, Testing, Validation
+- Inside training create 2 folder as happy or not happy
+- paste all the photo in testing part 
+
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+from tensorflow.keras.preprocessing import image 
+
+import matplotlib.pyplot as plt
+
+import tensorflow as tf
+
+import numpy as np
+
+import cv2
+
+import os
+
+import warnings
+warnings.filterwarnings("ignore")
